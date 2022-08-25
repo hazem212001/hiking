@@ -672,7 +672,11 @@ div .btn1:hover{
 /* ******************Media Screen******************* */
 
 @media screen and (max-width: 575px){
-
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
     .page1 {
         height: 580px;
     }
