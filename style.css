@@ -671,7 +671,7 @@ div .btn1:hover{
 
 /* ******************Media Screen******************* */
 
-@media screen and (max-width: 575px){
+@media screen and (max-width: 412px){
 
     *{
         margin: 0;
@@ -833,7 +833,7 @@ div .btn1:hover{
         margin-left: 35px;
     }
     .page6 .img10{
-        margin-top: -90px;
+        margin-top: -85px;
     }
     .page6 .btn4 {
         margin-top: 2px;
