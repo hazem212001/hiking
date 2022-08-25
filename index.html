@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="icon" href="icon.png"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+    <title>HIKING</title>
+</head>
+<body>
+
+<!-- ******************Page1******************* -->
+
+ <div class="page1" id="home">
+    <header 
+    data-aos="fade-down"
+    data-aos-easing="linear"
+    data-aos-duration="1500">
+        <img class="img13" src="logo.png" alt="this is the logo"
+        data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000">
+        <img class="img12" src="shape1.png" alt="this is the shape">
+        <nav>
+            <ul>
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#page3">MENU</a></li>
+                <li><a href="#page5">OUR STORY</a></li>
+                <li><a href="#page6">CONTACT US</a></li>
+            </ul>
+        </nav>
+        <div>
+            <input type="text" placeholder="Search">
+            <button class="btn5">Search</button>
+        </div>
+    </header>
+    <div class="par">
+        <h1 data-aos="fade-right">IT'S TIME <br><span>FOR HIKING</span></h1>
+        <p>the best time of day to hike is in the morning.</p>
+        <p id="p1" style="display: none;">Motivational Hiking Quote.</p>
+    </div>
+    <button class="btn6" onclick="par1();" id="btn6">READ MORE</button>
+    <footer>
+        <img class="img14" src="shape2.png" alt="this is the shape">
+    </footer>
+</div>
+
+<!-- ******************Page2******************* -->
+
+<div>
+        <div class="content" id="page2">
+            <h2> LET'S GO </h2>
+            <p>Hiking is a wonderful way to immerse yourself in the outdoors.
+                <br> Transported by your own two feet and carrying only what you need for the day on your back, 
+                <br>you can discover the beauty of nature at whatever pace you’re comfortable with.
+            </p>
+        </div>
+        <br><br>
+        <div class="article">
+            <div class="container-one" 
+            data-aos="fade-left"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine">
+                <img src="image5.png" alt="it's time for hiking" width="230" height="230">
+                <div>
+                    <h2>Hiking</h2>
+                    <p>The beautiful thing about hiking is that it's truly an activity everyone can do.</p>
+                </div>
+            </div>
+
+            <div class="container-one" 
+            data-aos="zoom-in"
+            data-aos-duration="2000">
+                <img src="image4.png" alt="it's time for hiking" width="230" height="230">
+                <div>
+                    <h2>Hiking</h2>
+                    <p>Even when the climb gets tough, these sayings will remind you to keep going.</p>
+                </div>
+            </div>
+
+            <div class="container-one"
+            data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine">
+                <img src="image3.png" alt="it's time for hiking" width="230" height="230">
+                <div>
+                    <h2>Hiking</h2>
+                    <p>If you're an avid hiker, you're probably also into the beauty found in nature</p>
+                </div>
+            </div>
+        </div>
+        <div class="article1" style="display: none;" id="s_h">
+            <div class="container-one"
+            data-aos="fade-left"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine">
+                <img src="image.png" alt="it's time for hiking" width="230" height="230">
+                <div>
+                    <h2>Hiking</h2>
+                    <p>Hiking is a long, vigorous walk, usually on trails or footpaths in the countryside</p>
+                </div>
+            </div>
+
+            <div class="container-two" 
+            data-aos="zoom-in"
+            data-aos-duration="2000">
+                <img src="image1.png" alt="it's time for hiking" width="230" height="230">
+                <div>
+                    <h2>Hiking</h2>
+                    <p>While hiking requires physical exertion and, on more technical terrain, a degree of skill is definitely helpful</p>
+                </div>
+            </div>
+
+            <div class="container-three"
+            data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine">
+                <img src="image2.png" alt="it's time for hiking" width="230" height="230">
+                <div>
+                    <h2>Hiking</h2>
+                    <p>hiking is the common term used to describe going for an invigorating walk in the countryside.</p>
+                </div>
+            </div>
+        </div>
+        <img class="img1" src="image6.png" alt="this is shape" width="350" height="200"
+            data-aos="fade-left">
+            <div class="b">
+                <button class="btn1" onclick="show_hide()" id="btn1">SHOW MORE</button>
+            </div>
+</div>
+    <br><br><br><br><br><br>
+
+<!-- ******************Page3******************* -->
+
+<div class="page3" id="page3">
+    <div class="page3_container1" data-aos="fade-down">
+            <img class="img2" src="image4.png" alt="" width="350" height="350">
+        <div class="back1">
+            <h2>Discount Up To <br>50% All Excursions</h2>
+            <p> hiking, walking in nature as a recreational <br>activity. Especially among those with sedentary occupations, 
+                hiking is a natural exercise that promotes physical fitness, is economical and convenient, and requires no special equipment.
+            </p>
+            <p id="p2" style="display: none;">We spent the afternoon hiking around the lake.</p>
+            <button class="btn2" onclick="par3();" id="btn2">READ MORE</button>
+        </div>
+    </div>
+    <div class="page3_container2" data-aos="fade-up">
+            <img class="img3" src="image1.png" alt="" width="350" height="350">
+        <div class="back2">
+            <h2>January's Promo:<br>But 1 Get 1 Free!</h2>
+            <p>Hiking is a wonderful way to immerse yourself in the outdoors.
+                Transported by your own two feet and carrying only what you need for the day on your back,
+                you can discover the beauty of nature at whatever pace you’re comfortable with
+            </p>
+            <p id="p3" style="display: none;">Our neighbors like to go hiking in the mountains.</p>
+            <button class="btn3" onclick="par5();" id="btn3">READ MORE</button>
+        </div>
+    </div>
+</div>
+<br><br><br><br><br><br><br>
+
+<!-- ******************Page4******************* -->
+
+<div class="page4" id="page4">
+    <img class="img4" src="shape4.png" alt="this is shape">
+    <h2>Hiking in The Mountains</h2>
+    <br>
+    <p>This is a somewhat ambiguous term as it refers to a combination of walking on a mountain and sport climbing.
+    <br>Hiking can be an amazing experience, but it can also turn into a real challenge. 
+    <br>Spending time in the mountains means you have to be able to rely on yourself, your knowledge and your choices. 
+    </p>
+    <img class="img5" src="image6.png" width="400" height="250" data-aos="fade-right">
+<br><br><br><br><br><br><br>
+</div>
+
+<!-- ******************Page5******************* -->
+
+<div class="page5" id="page5">
+    <img class="img6" src="shape3.png" alt="this is shape">
+    <h2 data-aos="fade-up-left"><span> EXPLORE </span><br> THE WORLD</h2>
+    <img class="img7" src="shape7.png" alt="this is shape">
+    <br>
+    <div class="paragraph">
+        <div class="cont1" 
+        data-aos="fade-up"
+        data-aos-duration="3000">
+            <h3>Hiking</h3>
+            <p>Perhaps the most obvious<br> purpose of hiking is its<br> physical benefits.</p>
+        </div>
+        <div class="cont2" 
+        data-aos="fade-up"
+        data-aos-duration="3000">
+            <h3>Hiking</h3>
+            <p>One of the greatest goals <br>and purposes of hiking is the mental <br>benefits that hiking can provide.</p>
+        </div>
+        <div class="cont3" 
+        data-aos="fade-up"
+        data-aos-duration="3000">
+            <h3>Hiking</h3>
+            <p>hiking is a great way to build<br> bone density and strength. </p>
+        </div>
+    </div>
+    <img class="img9" src="shape5.png" alt="this is shape" data-aos="fade-up">
+    <br><br><br><br><br><br><br>
+    <img class="img8" src="Text.png" alt="This is The Photo" width="50" height="50"
+     data-aos="fade-left"
+     data-aos-easing="linear"
+     data-aos-duration="1500">
+    <p>Hiking, the act of strolling down a path through nature, offers opportunities for <br>
+        exercise, socialization, learning, reflection, expansion of thought, and improved mental well-being. <br>
+        While the benefits of hiking cover physical, social, familial, cognitive, mental, spiritual, and financial well-being.</p>
+        <h4>Hiking</h4>
+</div>
+
+<!-- ******************Page6******************* -->
+
+<div class="page6" id="page6">
+    <img class="img10" src="shape6.png" alt="this is shape">
+    <h3>Contact Us</h3>
+    <p>Hello! Thanks for taking the time to reach out to us! We’d love to hear from you .</p>
+    <div class="data">
+    <input type="text" placeholder="Your Email">
+    <button class="btn4" 
+    data-aos="fade-right">SUBSCRIBE</button>
+    </div>
+    <br><br><br><br><br>
+</div>
+
+<!-- ******************Page7******************* -->
+
+<div class="page7" id="page7">
+    <img class="img11" src="shape8.png" alt="this is shape">
+    <h3>HIKING</h3>
+    <p>Hiking is a long, vigorous walk, usually <br>on trails or footpaths in the countryside. <br>Walking for pleasure developed in<br> Europe during the eighteenth century.</p>
+    <div id="links" 
+    data-aos="fade-up"
+    data-aos-duration="3000">
+        <a href="#"><img src="image12.png" alt="" width="50" height="50"></a>
+        <a href="#"><img src="image14.png" alt="" width="50" height="50"></a>
+        <a href="#"><img src="image13.png" alt="" width="50" height="50"></a>
+        <a href="#"><img src="image11.png" alt="" width="50" height="50"></a>
+        </div>
+        <nav
+        data-aos="fade-up"
+        data-aos-duration="3000">
+            <ul>
+            <div class="nav1">
+                <li><a href="#" style="font-size: 25px;text-shadow: 2px 2px 2px #000">About</a></li>
+                <br>
+                <li><a href="#">History</a></li>
+                <li><a href="#">Our Team</a></li>
+                <li><a href="#">BrandGuidelines</a></li>
+                <li><a href="#">Terms&Condition</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+            </div>
+            <div class="nav2">
+                <li><a href="#" style="font-size: 25px;text-shadow: 2px 2px 2px #000">Services</a></li>
+                <br>
+                <li><a href="#">How To Order</a></li>
+                <li><a href="#">Our Product</a></li>
+                <li><a href="#">Other Status</a></li>
+                <li><a href="#">Promo</a></li>
+                <li><a href="#">Payment Method</a></li>
+            </div>
+            <div class="nav3">
+                <li><a href="#page4" style="font-size: 25px;text-shadow: 2px 2px 2px #000">Other</a></li>
+                <br>
+                <li><a href="#page6">Contact Us</a></li>
+                <li><a href="#">Help</a></li>
+                <li><a href="#">Privacy</a></li>
+            </div>
+            </ul>
+        </nav>
+        </div>
+</div>
+    <script>
+        AOS.init();
+      </script>
+</body>
+</html>
